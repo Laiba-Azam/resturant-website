@@ -1,0 +1,53 @@
+    @media screen and (max-width:710px) {
+        /* for naav and home */
+        #nav-bar {
+            flex-direction: column;
+        }
+        #home {
+            padding: 0.7px 10px;
+        }
+        #home::before {
+            height: 545px;
+        }
+        /* for service */
+        .flex {
+            flex-direction: column;
+        }
+        .box {
+            width: 96%;
+            flex-grow: 1;
+        }
+        #contact-box form {
+            width: 60%;
+        }
+    }
+    
+    @media screen and (max-width:422px) {
+        /* for naav and home */
+        ul {
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
+    
+    @media screen and (max-width:648px) {
+        .client-item {
+            padding: 20px 2.5vw;
+        }
+        .client-item img {
+            width: 14vw;
+        }
+    }
+    
+    @media screen and (max-width:548px) {
+        /* for naav and home */
+        #home p {
+            font-size: 0.9rem;
+        }
+        #home h1 {
+            font-size: 2.4em;
+        }
+        #contact-box form {
+            width: 70%;
+        }
+    }
